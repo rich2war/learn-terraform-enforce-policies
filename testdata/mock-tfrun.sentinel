@@ -1,0 +1,56 @@
+id = "run-UaaqPwzoU9VCSTiz"
+created_at = "2025-10-03T13:08:17.379Z"
+created_by = "gh-webhooks-policy-as-code-training-aY1JrZaTad"
+message = "linktest"
+commit_sha = "65acd891867d7e6bf68661dc6d7a52de694a3588"
+speculative = false
+is_destroy = false
+refresh = true
+refresh_only = false
+replace_addrs = null
+target_addrs = null
+project = {
+	"id":   "prj-87zfFGk3tY6vUquJ",
+	"name": "policy-as-code",
+}
+
+variables = {
+	"AWS_ACCESS_KEY_ID": {
+		"category":  "env",
+		"sensitive": true,
+	},
+	"AWS_SECRET_ACCESS_KEY": {
+		"category":  "env",
+		"sensitive": true,
+	},
+	"instance_count": {
+		"category":  "terraform",
+		"sensitive": false,
+	},
+	"instance_type": {
+		"category":  "terraform",
+		"sensitive": false,
+	},
+}
+
+organization = {
+	"name": "policy-as-code-training",
+}
+
+workspace = {
+	"auto_apply":     false,
+	"created_at":     "2025-10-02T15:02:45.679Z",
+	"description":    null,
+	"execution_mode": "default",
+	"id":             "ws-2C7DxJL3ASmroZAk",
+	"name":           "policy-dev-rag",
+	"tag_bindings":   [],
+	"tags":           [],
+	"vcs_repo": {
+		"branch":             "",
+		"display_identifier": "rich2war/learn-terraform-variables",
+		"identifier":         "rich2war/learn-terraform-variables",
+		"ingress_submodules": false,
+	},
+	"working_directory": "",
+}
